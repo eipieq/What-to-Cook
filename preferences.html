@@ -5,29 +5,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>What to Cook</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="what-to-cook.png">
     </head>
     <body>
         <div class="preferences">
-            <h1>Select your Preferences</h1>
+            <h1>Select Your Preferences</h1>
             <div class="interaction">
                 <div class="select">
                     <div class="category">
                         <h5>Meal Type</h5>
                         <div class="selections">
-                            <div class="selection">
-                                <image class="icon" src="icons/breakfast.png" alt="Breakfast Icon">
+                            <div class="selection" data-category="mealType" data-value="Breakfast">
+                                <img class="icon" src="icons/breakfast.png" alt="Breakfast Icon">
                                 <p>Breakfast</p>
                             </div>
-                            <div class="selection">
-                                <image class="icon" src="icons/salad.png" alt="Breakfast Icon">
+                            <div class="selection" data-category="mealType" data-value="Lunch">
+                                <img class="icon" src="icons/salad.png" alt="Lunch Icon">
                                 <p>Lunch</p>
                             </div>
-                            <div class="selection">
-                                <image class="icon" src="icons/guacamole.png" alt="Breakfast Icon">
+                            <div class="selection" data-category="mealType" data-value="Appetizer">
+                                <img class="icon" src="icons/guacamole.png" alt="Appetizer Icon">
                                 <p>Appetizer</p>
                             </div>
-                            <div class="selection">
-                                <image class="icon" src="icons/vegetarian.png" alt="Breakfast Icon">
+                            <div class="selection" data-category="mealType" data-value="Dinner">
+                                <img class="icon" src="icons/vegetarian.png" alt="Dinner Icon">
                                 <p>Dinner</p>
                             </div>
                         </div>
@@ -35,12 +36,12 @@
                     <div class="category">
                         <h5>Cuisine</h5>
                         <div class="selections">
-                            <div class="selection">
-                                <image class="icon" src="icons/pasta.png" alt="Breakfast Icon">
+                            <div class="selection" data-category="cuisine" data-value="Italian">
+                                <img class="icon" src="icons/pasta.png" alt="Italian Pasta Icon">
                                 <p>Italian</p>
                             </div>
-                            <div class="selection">
-                                <image class="icon" src="icons/olive-oil.png" alt="Breakfast Icon">
+                            <div class="selection" data-category="cuisine" data-value="Mediterranean">
+                                <img class="icon" src="icons/olive-oil.png" alt="Olive Oil Icon">
                                 <p>Mediterranean</p>
                             </div>
                         </div>
