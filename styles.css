@@ -90,6 +90,7 @@ h1 {
 
 h5 {
     font-size: 1.25rem;
+    color: #333333;
 }
 
 .selections {
@@ -148,8 +149,8 @@ p {
 
 .button {
     width: fit-content;
-    padding: 0.3rem 1rem;
-    font-size: 1rem;
+    padding: 0.3rem 0.75rem;
+    font-size: 15px;
     color: white;
     border-radius: 0.25rem;
     position: relative;
@@ -167,6 +168,7 @@ p {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    text-transform: uppercase;
 }
 
 .button.primary {
@@ -252,13 +254,29 @@ p {
 }
 
 @media (max-width: 768px) {
+
+    .preferences {
+        align-items: flex-start;
+        padding: 64px 16px;
+        gap: 32px;
+    }
+
     .selections {
         gap: 8px;
     }
 
-    .preferences {
-        padding: 64px 16px;
-        gap: 32px;
+    .selection {
+        padding: 6px 12px;
+        gap: 5px;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    p {
+        font-size: 13px;
     }
 
 }
