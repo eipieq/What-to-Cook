@@ -284,7 +284,7 @@ p {
     width: 100%;
     max-width: 600px;
     margin: 0;
-    padding: 56px 16px 0 16px;
+    padding: 56px 16px 56px 16px;
     flex-direction: column;
     align-self: flex-start;
     align-items: center;
@@ -298,6 +298,7 @@ p {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    max-width: 500px;
 }
 
 .recipe {
@@ -479,5 +480,96 @@ p {
         padding: 10px 25px;
         flex: 0;
     }
+}
+
+
+.ingredients-section,
+.instructions-section {
+    width: 100%;
+    max-width: 500px;
+    margin: 8px 0;
+    padding: 16px;
+    background: #fafafa;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.ingredients-section h3,
+.instructions-section h3 {
+    color: #333333;
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
+
+.ingredients-list,
+.instructions-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ingredients-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-family: Nunito, sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.ingredients-list li:last-child {
+    border-bottom: none;
+}
+
+.ingredients-list li p {
+    display: inline;
+    color: #333333;
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+.ingredients-list li span {
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 400;
+}
+
+.instructions-list {
+    counter-reset: step-counter;
+}
+
+.instructions-list li {
+    counter-increment: step-counter;
+    padding: 12px 0;
+    padding-left: 40px;
+    position: relative;
+    font-family: Nunito, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333333;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.instructions-list li:last-child {
+    border-bottom: none;
+}
+
+.instructions-list li::before {
+    content: counter(step-counter);
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 24px;
+    height: 24px;
+    background: #f59e0b;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
 }
 

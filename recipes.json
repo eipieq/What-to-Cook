@@ -1,0 +1,546 @@
+{
+  "recipes": [
+    {
+      "id": "italian_lunch_caprese",
+      "name": "Classic Caprese Salad",
+      "cuisine": "Italian",
+      "mealType": "Lunch",
+      "dietary": [
+        "vegetarian"
+      ],
+      "cookTime": 10,
+      "servings": 2,
+      "style": "fresh & light",
+      "description": "Fresh mozzarella, ripe tomatoes, and basil drizzled with olive oil. Summer on a plate.",
+      "image": "caprese-salad.jpg",
+      "ingredients": [
+        "4 large ripe tomatoes, sliced",
+        "8 oz fresh mozzarella, sliced",
+        "1/2 cup fresh basil leaves",
+        "3 tbsp extra virgin olive oil",
+        "2 tbsp balsamic vinegar",
+        "Sea salt and cracked pepper",
+        "Optional: balsamic glaze"
+      ],
+      "instructions": [
+        "Arrange tomato and mozzarella slices alternately on a platter.",
+        "Tuck basil leaves between slices.",
+        "Drizzle with olive oil and balsamic vinegar.",
+        "Season with salt and pepper, serve immediately."
+      ]
+    },
+    {
+      "id": "italian_dinner_pasta_arrabbiata",
+      "name": "Pasta Arrabbiata",
+      "cuisine": "Italian",
+      "mealType": "Dinner",
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "cookTime": 20,
+      "servings": 4,
+      "style": "spicy & robust",
+      "description": "Fiery tomato sauce with garlic and red chilies tossed with pasta.",
+      "image": "pasta-arrabbiata.jpg",
+      "ingredients": [
+        "400g penne pasta",
+        "400g canned tomatoes, crushed",
+        "4 cloves garlic, thinly sliced",
+        "2-3 dried red chilies",
+        "1/4 cup olive oil",
+        "Fresh parsley, chopped",
+        "Salt to taste",
+        "Optional: nutritional yeast"
+      ],
+      "instructions": [
+        "Cook pasta according to package directions.",
+        "Heat olive oil, fry garlic and chilies until fragrant.",
+        "Add tomatoes and simmer 10 minutes until thick.",
+        "Toss with drained pasta and garnish with parsley."
+      ]
+    },
+    {
+      "id": "italian_appetizer_bruschetta",
+      "name": "Classic Bruschetta",
+      "cuisine": "Italian",
+      "mealType": "Appetizer",
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "cookTime": 15,
+      "servings": 6,
+      "style": "fresh & vibrant",
+      "description": "Crispy bread topped with fresh tomatoes, basil, and garlic.",
+      "image": "bruschetta.jpg",
+      "ingredients": [
+        "1 baguette, sliced",
+        "4 ripe tomatoes, diced",
+        "3 cloves garlic",
+        "1/4 cup fresh basil, chopped",
+        "3 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt and pepper",
+        "Optional: vegan cheese"
+      ],
+      "instructions": [
+        "Toast bread slices until golden.",
+        "Rub each slice with a garlic clove.",
+        "Mix tomatoes, basil, olive oil, vinegar, salt, and pepper.",
+        "Top toast with tomato mixture and serve immediately."
+      ]
+    },
+    {
+      "id": "mediterranean_breakfast_yogurt_bowl",
+      "name": "Mediterranean Yogurt Bowl",
+      "cuisine": "Meditanean",
+      "mealType": "Breakfast",
+      "dietary": [
+        "vegetarian"
+      ],
+      "cookTime": 5,
+      "servings": 2,
+      "style": "light & refreshing",
+      "description": "Greek yogurt topped with honey, nuts, and fresh fruits.",
+      "image": "yogurt-bowl.jpg",
+      "ingredients": [
+        "2 cups Greek yogurt",
+        "3 tbsp honey",
+        "1/4 cup chopped walnuts",
+        "1/4 cup dried figs, chopped",
+        "1/2 cup fresh berries",
+        "2 tbsp chia seeds",
+        "1 tsp vanilla extract",
+        "Zest of 1 orange",
+        "Fresh mint leaves"
+      ],
+      "instructions": [
+        "Mix yogurt with vanilla and orange zest.",
+        "Divide between two bowls.",
+        "Top with honey, nuts, figs, berries, and chia seeds.",
+        "Garnish with fresh mint and serve."
+      ]
+    },
+    {
+      "id": "mediterranean_dinner_ratatouille",
+      "name": "Traditional Ratatouille",
+      "cuisine": "Mediterranean",
+      "mealType": "Dinner",
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "cookTime": 50,
+      "servings": 6,
+      "style": "rustic & warming",
+      "description": "A colorful medley of vegetables simmered with herbs.",
+      "image": "ratatouille.jpg",
+      "ingredients": [
+        "2 eggplants, cubed",
+        "2 zucchini, sliced",
+        "2 bell peppers, chopped",
+        "4 tomatoes, chopped",
+        "1 large onion, sliced",
+        "4 cloves garlic, minced",
+        "1/4 cup olive oil",
+        "2 tsp herbes de Provence",
+        "Fresh basil and thyme",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Sauté onion and garlic in olive oil until soft.",
+        "Add eggplant and peppers, cook 10 minutes.",
+        "Add zucchini, tomatoes, and herbs.",
+        "Simmer covered 30 minutes, stirring occasionally."
+      ]
+    },
+    {
+      "id": "mediterranean_lunch_greek_salad",
+      "name": "Greek Village Salad",
+      "cuisine": "Mediterranean",
+      "mealType": "Lunch",
+      "dietary": [
+        "vegetarian"
+      ],
+      "cookTime": 15,
+      "servings": 4,
+      "style": "fresh & light",
+      "description": "Crisp vegetables, creamy feta, and Kalamata olives.",
+      "image": "greek-salad.jpg",
+      "ingredients": [
+        "4 large tomatoes, cut into wedges",
+        "1 cucumber, thickly sliced",
+        "1 red onion, thinly sliced",
+        "1 green bell pepper, sliced",
+        "200g feta cheese, in chunks",
+        "1/2 cup Kalamata olives",
+        "1/4 cup olive oil",
+        "2 tbsp red wine vinegar",
+        "1 tsp dried oregano"
+      ],
+      "instructions": [
+        "Arrange vegetables on a platter.",
+        "Top with feta chunks and olives.",
+        "Whisk olive oil, vinegar, and oregano.",
+        "Drizzle dressing over salad and rest 10 minutes."
+      ]
+    },
+    {
+      "id": "mediterranean_dinner_stuffed_eggplant",
+      "name": "Stuffed Eggplant with Herbs",
+      "cuisine": "Mediterranean",
+      "mealType": "Dinner",
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "cookTime": 45,
+      "servings": 4,
+      "style": "hearty & aromatic",
+      "description": "Tender eggplant filled with herbed rice, tomatoes, and spices.",
+      "image": "stuffed-eggplant.jpg",
+      "ingredients": [
+        "2 large eggplants, halved lengthwise",
+        "1 cup cooked rice",
+        "2 tomatoes, diced",
+        "1/4 cup pine nuts",
+        "1/4 cup fresh mint, chopped",
+        "1/4 cup fresh parsley, chopped",
+        "3 tbsp olive oil",
+        "1 tsp ground cinnamon",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Scoop out eggplant flesh, leaving a 1 cm border.",
+        "Mix rice, tomatoes, nuts, herbs, and spices.",
+        "Stuff eggplant shells with the mixture.",
+        "Bake at 190°C / 375°F for 35–40 minutes until tender."
+      ]
+    },
+    {
+      "id": "mediterranean_appetizer_dolmas",
+      "name": "Stuffed Grape Leaves (Dolmas)",
+      "cuisine": "Mediterranean",
+      "mealType": "Appetizer",
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "cookTime": 45,
+      "servings": 6,
+      "style": "traditional & aromatic",
+      "description": "Grape leaves stuffed with herbed rice and pine nuts.",
+      "image": "dolmas.jpg",
+      "ingredients": [
+        "30 grape leaves, blanched",
+        "1 cup rice",
+        "1/4 cup pine nuts",
+        "1 onion, finely diced",
+        "1/4 cup fresh dill, chopped",
+        "1/4 cup fresh mint, chopped",
+        "3 tbsp olive oil",
+        "2 tbsp lemon juice",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Sauté onion until soft; add rice and herbs.",
+        "Cook rice until just tender; cool completely.",
+        "Place filling on grape leaves and roll tightly.",
+        "Steam for 30 minutes; serve with lemon."
+      ]
+    },
+    {
+      "id": "mediterranean_appetizer_baba_ganoush",
+      "name": "Smoky Baba Ganoush",
+      "cuisine": "Mediterranean",
+      "mealType": "Appetizer",
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "cookTime": 20,
+      "servings": 6,
+      "style": "smoky & rich",
+      "description": "Roasted eggplant dip with tahini, lemon, and garlic.",
+      "image": "baba-ganoush.jpg",
+      "ingredients": [
+        "2 large eggplants",
+        "3 tbsp tahini",
+        "2 cloves garlic",
+        "3 tbsp lemon juice",
+        "2 tbsp olive oil",
+        "1/2 tsp smoked paprika",
+        "Salt to taste",
+        "Pomegranate seeds",
+        "Pita bread"
+      ],
+      "instructions": [
+        "Roast eggplants over flame until charred and soft.",
+        "Scoop out flesh and drain excess liquid.",
+        "Blend with tahini, garlic, lemon juice, and oil.",
+        "Garnish with paprika and pomegranate seeds; serve."
+      ]
+    },
+    {
+      "id": "italian_breakfast_tomato_basil_panini",
+      "name": "Vegan Tomato & Basil Panini",
+      "cuisine": "Italian",
+      "mealType": "Breakfast",
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "cookTime": 10,
+      "servings": 2,
+      "style": "warm & comforting",
+      "description": "Toasted panini with cashew mozzarella, juicy tomatoes, and fresh basil.",
+      "image": "panini.jpg",
+      "ingredients": [
+        "4 slices crusty bread or ciabatta",
+        "1/2 cup cashew mozzarella or vegan cheese",
+        "1 large ripe tomato, sliced",
+        "Fresh basil leaves",
+        "2 tsp olive oil",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Assemble bread with vegan cheese, tomato, and basil; season.",
+        "Brush outside with olive oil.",
+        "Grill in a panini press or skillet until golden and melty."
+      ]
+    },
+    {
+      "id": "italian_lunch_minestrone",
+      "name": "Hearty Minestrone Soup",
+      "cuisine": "Italian",
+      "mealType": "Lunch",
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "cookTime": 35,
+      "servings": 4,
+      "style": "hearty & nourishing",
+      "description": "Bean, vegetable, and pasta soup in a tomato-herb broth.",
+      "image": "minestrone.jpg",
+      "ingredients": [
+        "1 onion, diced",
+        "2 carrots, diced",
+        "2 celery stalks, diced",
+        "2 cloves garlic, minced",
+        "1 tbsp olive oil",
+        "1 cup mixed beans (cannellini/kidney), cooked",
+        "400g canned tomatoes, crushed",
+        "4 cups vegetable broth",
+        "1 cup small pasta (ditalini)",
+        "1 zucchini, diced",
+        "1 tsp dried oregano",
+        "Salt and pepper",
+        "Optional: parsley, nutritional yeast"
+      ],
+      "instructions": [
+        "Sauté onion, carrot, celery, and garlic in olive oil.",
+        "Add tomatoes, broth, beans, oregano; simmer 15 minutes.",
+        "Add pasta and zucchini; cook until pasta is al dente.",
+        "Season and garnish with parsley or nutritional yeast."
+      ]
+    },
+    {
+      "id": "italian_dinner_mushroom_risotto",
+      "name": "Vegan Mushroom Risotto",
+      "cuisine": "Italian",
+      "mealType": "Dinner",
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "cookTime": 35,
+      "servings": 4,
+      "style": "creamy & umami-rich",
+      "description": "Arborio rice gently stirred with mushrooms and vegetable stock, finished with nutritional yeast.",
+      "image": "vegan-mushroom-risotto.jpg",
+      "ingredients": [
+        "1 1/2 cups arborio rice",
+        "400g mixed mushrooms, sliced",
+        "1 onion, finely chopped",
+        "3 cloves garlic, minced",
+        "1/4 cup dry white wine (optional)",
+        "5 cups hot vegetable stock",
+        "2 tbsp olive oil",
+        "2 tbsp vegan butter (optional)",
+        "2 tbsp nutritional yeast",
+        "Salt and pepper",
+        "Parsley, chopped"
+      ],
+      "instructions": [
+        "Sauté onion and garlic in olive oil until translucent.",
+        "Add mushrooms; cook until browned.",
+        "Stir in rice; toast 1–2 minutes, then add wine to deglaze.",
+        "Add hot stock a ladle at a time, stirring until absorbed before the next.",
+        "Finish with vegan butter, nutritional yeast, and parsley; season."
+      ]
+    },
+    {
+      "id": "italian_appetizer_marinated_olives_peppers",
+      "name": "Marinated Olives & Roasted Peppers",
+      "cuisine": "Italian",
+      "mealType": "Appetizer",
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "cookTime": 20,
+      "servings": 6,
+      "style": "rustic & shareable",
+      "description": "Herb-marinated olives with sweet roasted peppers and garlic.",
+      "image": "marinated-olives-peppers.jpg",
+      "ingredients": [
+        "2 cups mixed olives",
+        "2 bell peppers, roasted and sliced",
+        "3 cloves garlic, thinly sliced",
+        "1 tsp dried oregano",
+        "Zest of 1 lemon",
+        "3 tbsp extra virgin olive oil",
+        "1 tbsp red wine vinegar"
+      ],
+      "instructions": [
+        "Combine olives, roasted peppers, garlic, oregano, and lemon zest.",
+        "Toss with olive oil and vinegar; marinate 15 minutes before serving."
+      ]
+    },
+    {
+      "id": "mediterranean_breakfast_chickpea_omelette",
+      "name": "Chickpea Flour Omelette (Egg-Free)",
+      "cuisine": "Mediterranean",
+      "mealType": "Breakfast",
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "cookTime": 20,
+      "servings": 2,
+      "style": "protein-rich & savory",
+      "description": "Besan batter with onions, spinach, and herbs cooked like an omelette—no eggs.",
+      "image": "chickpea-omelette.jpg",
+      "ingredients": [
+        "1 cup chickpea flour (besan)",
+        "1 1/4 cups water",
+        "1/4 tsp turmeric",
+        "1/4 tsp baking soda (optional, for lift)",
+        "1/2 tsp cumin seeds",
+        "1 small onion, finely chopped",
+        "1 cup spinach, chopped",
+        "2 tbsp chopped cilantro",
+        "1 green chili, minced (optional)",
+        "Salt and pepper",
+        "1–2 tbsp oil for cooking"
+      ],
+      "instructions": [
+        "Whisk chickpea flour, water, turmeric, baking soda, and salt into a smooth batter.",
+        "Stir in cumin, onion, spinach, cilantro, and chili.",
+        "Heat a lightly oiled nonstick pan; pour batter and spread.",
+        "Cook until set and golden on both sides; serve hot."
+      ]
+    },
+    {
+      "id": "mediterranean_lunch_falafel_wrap",
+      "name": "Falafel Wrap with Tahini",
+      "cuisine": "Mediterranean",
+      "mealType": "Lunch",
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "cookTime": 40,
+      "servings": 4,
+      "style": "street-food & crunchy",
+      "description": "Crispy falafel tucked into pita with tahini sauce and fresh vegetables.",
+      "image": "falafel-wrap.jpg",
+      "ingredients": [
+        "2 cups dried chickpeas, soaked overnight and drained",
+        "1 small onion, roughly chopped",
+        "3 cloves garlic",
+        "1 cup parsley and cilantro, packed",
+        "1 tsp ground cumin",
+        "1 tsp ground coriander",
+        "1/2 tsp baking powder",
+        "Salt and pepper",
+        "Oil for frying or baking",
+        "Pita breads",
+        "Tomato, cucumber, lettuce",
+        "Tahini sauce (tahini, lemon juice, water, salt)"
+      ],
+      "instructions": [
+        "Pulse chickpeas, onion, garlic, herbs, spices, baking powder, and salt until coarse.",
+        "Rest mixture 20 minutes; shape into balls or patties.",
+        "Fry until deep golden or bake at 200°C / 400°F until crisp.",
+        "Serve in pita with vegetables and tahini sauce."
+      ]
+    },
+    {
+      "id": "mediterranean_dinner_vegan_moussaka",
+      "name": "Vegan Moussaka with Lentils",
+      "cuisine": "Mediterranean",
+      "mealType": "Dinner",
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "cookTime": 60,
+      "servings": 6,
+      "style": "layered & comforting",
+      "description": "Roasted eggplant layered with spiced lentils and a silky cashew béchamel.",
+      "image": "vegan-moussaka.jpg",
+      "ingredients": [
+        "2 large eggplants, sliced lengthwise",
+        "2 tbsp olive oil",
+        "1 onion, chopped",
+        "3 cloves garlic, minced",
+        "1 cup dried brown or green lentils, rinsed",
+        "400g crushed tomatoes",
+        "2 cups vegetable stock",
+        "1 tsp ground cinnamon",
+        "1 tsp dried oregano",
+        "Salt and pepper",
+        "For cashew béchamel: 1 cup cashews (soaked), 2 cups water, 2 tbsp nutritional yeast, 2 tbsp cornstarch, pinch nutmeg, salt"
+      ],
+      "instructions": [
+        "Roast eggplant slices brushed with oil at 200°C / 400°F until tender.",
+        "Simmer lentils with onion, garlic, tomatoes, stock, cinnamon, and oregano until thick; season.",
+        "Blend béchamel ingredients until smooth; heat and whisk until thickened.",
+        "Layer eggplant, lentils, and béchamel; bake 20 minutes to set."
+      ]
+    },
+    {
+      "id": "mediterranean_appetizer_muhammara",
+      "name": "Muhammara (Red Pepper & Walnut Dip)",
+      "cuisine": "Mediterranean",
+      "mealType": "Appetizer",
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "cookTime": 15,
+      "servings": 6,
+      "style": "sweet, smoky & tangy",
+      "description": "Roasted red pepper, walnuts, garlic, and pomegranate molasses blended into a silky dip.",
+      "image": "muhammara.jpg",
+      "ingredients": [
+        "3 roasted red peppers, peeled",
+        "1 cup walnuts, toasted",
+        "1 clove garlic",
+        "2 tbsp pomegranate molasses",
+        "2 tbsp olive oil",
+        "1 tbsp lemon juice",
+        "1/2 tsp cumin",
+        "Salt and pepper",
+        "Optional: breadcrumbs for body"
+      ],
+      "instructions": [
+        "Blend peppers, walnuts, garlic, pomegranate molasses, olive oil, lemon, cumin, salt, and pepper until smooth.",
+        "Adjust thickness with breadcrumbs if desired; chill before serving."
+      ]
+    }
+  ]
+}
