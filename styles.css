@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 * {
     margin: 0;
@@ -279,4 +279,212 @@ p {
         font-size: 13px;
     }
 
+}
+
+/*---recipe---*/
+.recipe-page {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    margin: 0;
+    padding: 64px 0;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: center;
+    gap: 48px;
+}
+
+.recipe-page h1 {
+    color: #FF746C;
+    font-family: "Averia Serif Libre";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+}
+
+.recipe img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    aspect-ratio: 16/9;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    object-fit: cover;
+}
+
+.stats {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.clip {
+    display: flex;
+    padding: 5px 8px;
+    align-items: center;
+    gap: 8px;
+}
+
+.clip img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    border: none;
+}
+
+.clip p {
+    color: #000;
+    font-family: Nunito, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.45px;
+}
+
+.clip p span {
+    color: rgba(0, 0, 0, 0.66);
+    font-weight: 400;
+}
+
+.recipe > p {
+    color: #333333;
+    font-family: Nunito, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 500px;
+}
+
+.feedback-actions {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.feedback-actions .button.primary {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #4ade80; /* Use a nicer green */
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: none; /* Remove uppercase */
+}
+
+.feedback-actions .button.primary:hover {
+    background: #22c55e;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(34, 197, 94, 0.3);
+}
+
+.feedback-actions .button.secondary {
+    display: flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #ffffff;
+    color: #666666;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 48px; /* Ensure minimum touch target */
+}
+
+.feedback-actions .button.secondary:hover {
+    background: #f3f4f6;
+    color: #333333;
+    transform: translateY(-1px);
+}
+
+/* Icon styles for buttons */
+.feedback-actions .button svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+.feedback-actions .button.primary svg {
+    color: white;
+}
+
+.feedback-actions .button.secondary svg {
+    color: inherit;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .recipe-page {
+        padding: 32px 16px;
+        gap: 32px;
+    }
+    
+    .recipe-page h1 {
+        font-size: 36px;
+    }
+    
+    .recipe img {
+        border-radius: 8px;
+    }
+    
+    .stats {
+        gap: 12px;
+        padding: 4px;
+    }
+    
+    .clip {
+        padding: 6px 10px;
+        gap: 6px;
+    }
+    
+    .clip img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .clip p {
+        font-size: 13px;
+    }
+    
+    .recipe > p {
+        font-size: 15px;
+        padding: 0 8px;
+    }
+    
+    .feedback-actions {
+        flex-direction: column-reverse;
+        gap: 12px;
+    }
+    
+    .feedback-actions .button.primary,
+    .feedback-actions .button.secondary {
+        width: 100%;
+        justify-content: center;
+    }
 }
