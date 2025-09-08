@@ -291,7 +291,7 @@ p {
     width: 100%;
     max-width: 600px;
     margin: 0;
-    padding: 56px 16px 56px 16px;
+    padding: 42px 16px 42px 16px;
     flex-direction: column;
     align-self: flex-start;
     align-items: center;
@@ -301,7 +301,7 @@ p {
 .recipe-page h1 {
     color: #FF746C;
     font-family: "Averia Serif Libre";
-    font-size: 56px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -432,7 +432,7 @@ p {
 @media (max-width: 768px) {
     .recipe-page {
         max-width: 100%;
-        padding: 56px 8px 0 8px;
+        padding: 42px 8px 42px 8px;
     }
 
     .recipe-page h1 {
@@ -580,3 +580,17 @@ p {
     font-weight: 700;
 }
 
+.loader::after {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: 3px solid #f59e0b;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-left: 8px;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

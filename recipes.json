@@ -5,14 +5,12 @@
       "name": "Classic Caprese Salad",
       "cuisine": "Italian",
       "mealType": "Lunch",
-      "dietary": [
-        "vegetarian"
-      ],
+      "dietary": ["vegetarian"],
       "cookTime": 10,
       "servings": 2,
       "style": "fresh & light",
       "description": "Fresh mozzarella, ripe tomatoes, and basil drizzled with olive oil. Summer on a plate.",
-      "image": "caprese-salad.jpg",
+      "image": "/img/caprese-salad.jpg",
       "ingredients": [
         "4 large ripe tomatoes, sliced",
         "8 oz fresh mozzarella, sliced",
@@ -34,15 +32,12 @@
       "name": "Pasta Arrabbiata",
       "cuisine": "Italian",
       "mealType": "Dinner",
-      "dietary": [
-        "vegetarian",
-        "vegan"
-      ],
+      "dietary": ["vegetarian", "vegan"],
       "cookTime": 20,
       "servings": 4,
       "style": "spicy & robust",
       "description": "Fiery tomato sauce with garlic and red chilies tossed with pasta.",
-      "image": "pasta-arrabbiata.jpg",
+      "image": "/img/pasta-arrabbiata.jpg",
       "ingredients": [
         "400g penne pasta",
         "400g canned tomatoes, crushed",
@@ -65,15 +60,12 @@
       "name": "Classic Bruschetta",
       "cuisine": "Italian",
       "mealType": "Appetizer",
-      "dietary": [
-        "vegetarian",
-        "vegan"
-      ],
+      "dietary": ["vegetarian", "vegan"],
       "cookTime": 15,
       "servings": 6,
       "style": "fresh & vibrant",
       "description": "Crispy bread topped with fresh tomatoes, basil, and garlic.",
-      "image": "bruschetta.jpg",
+      "image": "/img/bruschetta.jpg",
       "ingredients": [
         "1 baguette, sliced",
         "4 ripe tomatoes, diced",
@@ -94,16 +86,14 @@
     {
       "id": "mediterranean_breakfast_yogurt_bowl",
       "name": "Mediterranean Yogurt Bowl",
-      "cuisine": "Meditanean",
+      "cuisine": "Mediterranean",
       "mealType": "Breakfast",
-      "dietary": [
-        "vegetarian"
-      ],
+      "dietary": ["vegetarian"],
       "cookTime": 5,
       "servings": 2,
       "style": "light & refreshing",
       "description": "Greek yogurt topped with honey, nuts, and fresh fruits.",
-      "image": "yogurt-bowl.jpg",
+      "image": "/img/yogurt-bowl.jpg",
       "ingredients": [
         "2 cups Greek yogurt",
         "3 tbsp honey",
@@ -127,15 +117,12 @@
       "name": "Traditional Ratatouille",
       "cuisine": "Mediterranean",
       "mealType": "Dinner",
-      "dietary": [
-        "vegetarian",
-        "vegan"
-      ],
+      "dietary": ["vegetarian", "vegan"],
       "cookTime": 50,
       "servings": 6,
       "style": "rustic & warming",
       "description": "A colorful medley of vegetables simmered with herbs.",
-      "image": "ratatouille.jpg",
+      "image": "/img/ratatouille.jpg",
       "ingredients": [
         "2 eggplants, cubed",
         "2 zucchini, sliced",
@@ -160,14 +147,12 @@
       "name": "Greek Village Salad",
       "cuisine": "Mediterranean",
       "mealType": "Lunch",
-      "dietary": [
-        "vegetarian"
-      ],
+      "dietary": ["vegetarian"],
       "cookTime": 15,
       "servings": 4,
       "style": "fresh & light",
       "description": "Crisp vegetables, creamy feta, and Kalamata olives.",
-      "image": "greek-salad.jpg",
+      "image": "/img/greek-salad.jpg",
       "ingredients": [
         "4 large tomatoes, cut into wedges",
         "1 cucumber, thickly sliced",
@@ -187,35 +172,33 @@
       ]
     },
     {
-      "id": "mediterranean_dinner_stuffed_eggplant",
-      "name": "Stuffed Eggplant with Herbs",
+      "id": "mediterranean_appetizer_garlic_herb_mushrooms",
+      "name": "Garlic & Herb Stuffed Mushrooms",
       "cuisine": "Mediterranean",
-      "mealType": "Dinner",
-      "dietary": [
-        "vegetarian",
-        "vegan"
-      ],
-      "cookTime": 45,
-      "servings": 4,
-      "style": "hearty & aromatic",
-      "description": "Tender eggplant filled with herbed rice, tomatoes, and spices.",
-      "image": "stuffed-eggplant.jpg",
+      "mealType": "Appetizer",
+      "dietary": ["vegetarian", "vegan"],
+      "cookTime": 25,
+      "servings": 6,
+      "style": "savory & aromatic",
+      "description": "Large mushroom caps stuffed with herbed breadcrumbs, garlic, and fresh herbs.",
+      "image": "/img/garlic-herb-mushrooms.jpg",
       "ingredients": [
-        "2 large eggplants, halved lengthwise",
-        "1 cup cooked rice",
-        "2 tomatoes, diced",
-        "1/4 cup pine nuts",
-        "1/4 cup fresh mint, chopped",
+        "12 large button or portobello mushrooms, stems removed",
+        "1 cup fresh breadcrumbs",
+        "4 cloves garlic, minced",
         "1/4 cup fresh parsley, chopped",
+        "2 tbsp fresh thyme leaves",
         "3 tbsp olive oil",
-        "1 tsp ground cinnamon",
-        "Salt and pepper"
+        "2 tbsp nutritional yeast (optional)",
+        "1/4 cup pine nuts, chopped",
+        "Salt and pepper",
+        "Lemon zest"
       ],
       "instructions": [
-        "Scoop out eggplant flesh, leaving a 1 cm border.",
-        "Mix rice, tomatoes, nuts, herbs, and spices.",
-        "Stuff eggplant shells with the mixture.",
-        "Bake at 190°C / 375°F for 35–40 minutes until tender."
+        "Preheat oven to 190°C / 375°F. Clean mushroom caps and remove stems.",
+        "Mix breadcrumbs, garlic, herbs, olive oil, nutritional yeast, and pine nuts.",
+        "Season mushroom caps with salt and pepper, then fill with stuffing mixture.",
+        "Bake for 20 minutes until mushrooms are tender and stuffing is golden."
       ]
     },
     {
@@ -223,15 +206,12 @@
       "name": "Stuffed Grape Leaves (Dolmas)",
       "cuisine": "Mediterranean",
       "mealType": "Appetizer",
-      "dietary": [
-        "vegetarian",
-        "vegan"
-      ],
+      "dietary": ["vegetarian", "vegan"],
       "cookTime": 45,
       "servings": 6,
       "style": "traditional & aromatic",
       "description": "Grape leaves stuffed with herbed rice and pine nuts.",
-      "image": "dolmas.jpg",
+      "image": "/img/dolmas.jpg",
       "ingredients": [
         "30 grape leaves, blanched",
         "1 cup rice",
@@ -255,15 +235,12 @@
       "name": "Smoky Baba Ganoush",
       "cuisine": "Mediterranean",
       "mealType": "Appetizer",
-      "dietary": [
-        "vegetarian",
-        "vegan"
-      ],
+      "dietary": ["vegetarian", "vegan"],
       "cookTime": 20,
       "servings": 6,
       "style": "smoky & rich",
       "description": "Roasted eggplant dip with tahini, lemon, and garlic.",
-      "image": "baba-ganoush.jpg",
+      "image": "/img/baba-ganoush.jpg",
       "ingredients": [
         "2 large eggplants",
         "3 tbsp tahini",
@@ -287,15 +264,12 @@
       "name": "Vegan Tomato & Basil Panini",
       "cuisine": "Italian",
       "mealType": "Breakfast",
-      "dietary": [
-        "vegetarian",
-        "vegan"
-      ],
+      "dietary": ["vegetarian", "vegan"],
       "cookTime": 10,
       "servings": 2,
       "style": "warm & comforting",
       "description": "Toasted panini with cashew mozzarella, juicy tomatoes, and fresh basil.",
-      "image": "panini.jpg",
+      "image": "/img/vegan-panini.jpg",
       "ingredients": [
         "4 slices crusty bread or ciabatta",
         "1/2 cup cashew mozzarella or vegan cheese",
@@ -315,15 +289,12 @@
       "name": "Hearty Minestrone Soup",
       "cuisine": "Italian",
       "mealType": "Lunch",
-      "dietary": [
-        "vegetarian",
-        "vegan"
-      ],
+      "dietary": ["vegetarian", "vegan"],
       "cookTime": 35,
       "servings": 4,
       "style": "hearty & nourishing",
       "description": "Bean, vegetable, and pasta soup in a tomato-herb broth.",
-      "image": "minestrone.jpg",
+      "image": "/img/minestrone.jpg",
       "ingredients": [
         "1 onion, diced",
         "2 carrots, diced",
@@ -351,15 +322,12 @@
       "name": "Vegan Mushroom Risotto",
       "cuisine": "Italian",
       "mealType": "Dinner",
-      "dietary": [
-        "vegetarian",
-        "vegan"
-      ],
+      "dietary": ["vegetarian", "vegan"],
       "cookTime": 35,
       "servings": 4,
       "style": "creamy & umami-rich",
       "description": "Arborio rice gently stirred with mushrooms and vegetable stock, finished with nutritional yeast.",
-      "image": "vegan-mushroom-risotto.jpg",
+      "image": "/img/vegan-mushroom-risotto.jpg",
       "ingredients": [
         "1 1/2 cups arborio rice",
         "400g mixed mushrooms, sliced",
@@ -382,65 +350,66 @@
       ]
     },
     {
-      "id": "italian_appetizer_marinated_olives_peppers",
-      "name": "Marinated Olives & Roasted Peppers",
-      "cuisine": "Italian",
-      "mealType": "Appetizer",
-      "dietary": [
-        "vegetarian",
-        "vegan"
-      ],
-      "cookTime": 20,
-      "servings": 6,
-      "style": "rustic & shareable",
-      "description": "Herb-marinated olives with sweet roasted peppers and garlic.",
-      "image": "marinated-olives-peppers.jpg",
+      "id": "mediterranean_dinner_moroccan_chickpea_stew",
+      "name": "Moroccan Chickpea Stew",
+      "cuisine": "Mediterranean",
+      "mealType": "Dinner",
+      "dietary": ["vegetarian", "vegan"],
+      "cookTime": 35,
+      "servings": 4,
+      "style": "warming & spiced",
+      "description": "Hearty chickpeas simmered with tomatoes, warming spices, and dried fruits.",
+      "image": "/img/moroccan-chickpea-stew.jpg",
       "ingredients": [
-        "2 cups mixed olives",
-        "2 bell peppers, roasted and sliced",
-        "3 cloves garlic, thinly sliced",
-        "1 tsp dried oregano",
-        "Zest of 1 lemon",
-        "3 tbsp extra virgin olive oil",
-        "1 tbsp red wine vinegar"
+        "2 cups cooked chickpeas (or 2 cans, drained)",
+        "1 large onion, diced",
+        "3 cloves garlic, minced",
+        "1 tsp ground ginger",
+        "1 tsp ground cinnamon",
+        "1 tsp ground cumin",
+        "1/2 tsp turmeric",
+        "400g canned tomatoes, crushed",
+        "1/2 cup dried apricots, chopped",
+        "2 cups vegetable broth",
+        "2 tbsp olive oil",
+        "1/4 cup fresh cilantro, chopped",
+        "Salt and pepper",
+        "Optional: couscous or rice for serving"
       ],
       "instructions": [
-        "Combine olives, roasted peppers, garlic, oregano, and lemon zest.",
-        "Toss with olive oil and vinegar; marinate 15 minutes before serving."
+        "Heat olive oil and sauté onion until softened.",
+        "Add garlic and spices; cook 1 minute until fragrant.",
+        "Add tomatoes, chickpeas, apricots, and broth; bring to a boil.",
+        "Simmer 20 minutes until thickened; garnish with cilantro and serve."
       ]
     },
     {
-      "id": "mediterranean_breakfast_chickpea_omelette",
-      "name": "Chickpea Flour Omelette (Egg-Free)",
+      "id": "mediterranean_breakfast_avocado_toast_zaatar",
+      "name": "Avocado Toast with Za'atar",
       "cuisine": "Mediterranean",
       "mealType": "Breakfast",
-      "dietary": [
-        "vegetarian",
-        "vegan"
-      ],
-      "cookTime": 20,
+      "dietary": ["vegetarian", "vegan"],
+      "cookTime": 10,
       "servings": 2,
-      "style": "protein-rich & savory",
-      "description": "Besan batter with onions, spinach, and herbs cooked like an omelette—no eggs.",
-      "image": "chickpea-omelette.jpg",
+      "style": "fresh & herby",
+      "description": "Creamy avocado on toasted bread, topped with tangy za'atar spice blend and olive oil.",
+      "image": "/img/avocado-toast-zaatar.jpg",
       "ingredients": [
-        "1 cup chickpea flour (besan)",
-        "1 1/4 cups water",
-        "1/4 tsp turmeric",
-        "1/4 tsp baking soda (optional, for lift)",
-        "1/2 tsp cumin seeds",
-        "1 small onion, finely chopped",
-        "1 cup spinach, chopped",
-        "2 tbsp chopped cilantro",
-        "1 green chili, minced (optional)",
-        "Salt and pepper",
-        "1–2 tbsp oil for cooking"
+        "4 slices whole grain bread",
+        "2 ripe avocados",
+        "2 tbsp za'atar spice blend",
+        "2 tbsp extra virgin olive oil",
+        "1 tbsp lemon juice",
+        "1/4 red onion, thinly sliced",
+        "Cherry tomatoes, halved",
+        "Sea salt and pepper",
+        "Optional: hemp seeds or pine nuts"
       ],
       "instructions": [
-        "Whisk chickpea flour, water, turmeric, baking soda, and salt into a smooth batter.",
-        "Stir in cumin, onion, spinach, cilantro, and chili.",
-        "Heat a lightly oiled nonstick pan; pour batter and spread.",
-        "Cook until set and golden on both sides; serve hot."
+        "Toast bread slices until golden and crispy.",
+        "Mash avocados with lemon juice, salt, and pepper.",
+        "Spread avocado mixture on toast.",
+        "Top with red onion, tomatoes, za'atar, and a drizzle of olive oil."
       ]
     },
     {
@@ -448,15 +417,12 @@
       "name": "Falafel Wrap with Tahini",
       "cuisine": "Mediterranean",
       "mealType": "Lunch",
-      "dietary": [
-        "vegetarian",
-        "vegan"
-      ],
+      "dietary": ["vegetarian", "vegan"],
       "cookTime": 40,
       "servings": 4,
       "style": "street-food & crunchy",
       "description": "Crispy falafel tucked into pita with tahini sauce and fresh vegetables.",
-      "image": "falafel-wrap.jpg",
+      "image": "/img/falafel-wrap.jpg",
       "ingredients": [
         "2 cups dried chickpeas, soaked overnight and drained",
         "1 small onion, roughly chopped",
@@ -483,15 +449,12 @@
       "name": "Vegan Moussaka with Lentils",
       "cuisine": "Mediterranean",
       "mealType": "Dinner",
-      "dietary": [
-        "vegetarian",
-        "vegan"
-      ],
+      "dietary": ["vegetarian", "vegan"],
       "cookTime": 60,
       "servings": 6,
       "style": "layered & comforting",
       "description": "Roasted eggplant layered with spiced lentils and a silky cashew béchamel.",
-      "image": "vegan-moussaka.jpg",
+      "image": "/img/vegan-moussaka.jpg",
       "ingredients": [
         "2 large eggplants, sliced lengthwise",
         "2 tbsp olive oil",
@@ -517,15 +480,12 @@
       "name": "Muhammara (Red Pepper & Walnut Dip)",
       "cuisine": "Mediterranean",
       "mealType": "Appetizer",
-      "dietary": [
-        "vegetarian",
-        "vegan"
-      ],
+      "dietary": ["vegetarian", "vegan"],
       "cookTime": 15,
       "servings": 6,
       "style": "sweet, smoky & tangy",
       "description": "Roasted red pepper, walnuts, garlic, and pomegranate molasses blended into a silky dip.",
-      "image": "muhammara.jpg",
+      "image": "/img/muhammara.jpg",
       "ingredients": [
         "3 roasted red peppers, peeled",
         "1 cup walnuts, toasted",

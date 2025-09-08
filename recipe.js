@@ -19,6 +19,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 async function loadRecipe(meal, cuisine, excludedRecipes = []) {
+    const loader = document.getElementById('loader');
+    loader.style.display = 'block';
+    
     try {
         console.log('Loading recipe for:', { meal, cuisine, excluded: excludedRecipes });
         
@@ -51,6 +54,8 @@ async function loadRecipe(meal, cuisine, excludedRecipes = []) {
     } catch (error) {
         console.error('Error loading recipe:', error);
         displayError();
+    } finally {
+        loader.style.display = 'none';
     }
 }
 
